@@ -7,8 +7,4 @@ public class RandomNumberGenerator {
         Random rand = new Random();
         return rand.nextInt(max - min) + min;
     }
-//    public static int generateRandomNumber() {
-//        Random rand = new Random();
-//        return (int) (Math.random() * 100);
-//    }
 }
